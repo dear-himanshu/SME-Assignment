@@ -17,7 +17,7 @@ namespace Player
         float elapsed_fire_duration;
         float elapsed_freez_duration;
 
-        PlayerView* player_view;
+        class PlayerView* player_view;
         PlayerModel* player_model;
 
         void processPlayerInput();
